@@ -41,6 +41,6 @@ model = genai.GenerativeModel(
 
 chat_session = model.start_chat()
 
-response = chat_session.send_message("Ile stopni jest w Krakowie?")
+response = chat_session.send_message("Napisz jakiś wiersz")
 
 print(response.text)
